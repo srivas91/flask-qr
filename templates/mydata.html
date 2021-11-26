@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        h3
+        {
+        font-size:20px;
+        color:blue;
+        }
+      div,h3
+      {
+       text-align:center;
+      }
+      input[type="submit"]
+      {
+      border:2px solid blue;
+      width:20%;
+      border-radius:10%;
+      }
+    </style>
+</head>
+<body>
+<h3>QR Code Generator</h3>
+ <div id="myform">
+<form action="http://localhost:5000/myqr" method="get">
+    <input type="text" name="mystring" >
+    <input type="submit" value="generate qr">
+    </div>
+</form>
+</body>
+</html>
